@@ -53,12 +53,11 @@ else if (calificacionNiveldeRiesgo === "riesgo maximo")( niveldeRiesgo=ibc*riesg
 
 //Condicionales
 
-if (edad <18) {
-    console.log("No puede trabajar");
-} 
-else if (edad >=18 && edad <=25) { 
-    console.log("Usuario beneficiario por cotizante");
-}
-else if (edad <=60) {
-    console.log("g");
-}
+if (edad <18) ;
+else if (edad >=18 && edad <=25) ;
+else if (edad <=60) ;
+
+//Arrays//
+
+const deRiesgo=[riesgoMinimo, riesgoBajo, riesgoMedio, riesgoAlto, riesgoMaximo]
+
